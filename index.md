@@ -1,3 +1,8 @@
+---
+title: JetVision
+layout: page
+---
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,14 +10,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 
-    <style>
+<style>
         body, html {
             /* Set a minimum height to make the page scrollable */
             min-height: 1200px; /* Adjust this value as needed */
         }
 
         /* Other CSS styles for your page go here */
-    </style>
+            </style>
 </head>
 <body>
     <div class="container">
