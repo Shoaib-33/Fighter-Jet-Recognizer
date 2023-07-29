@@ -1,6 +1,6 @@
 # Fighter-Jet-Image-Recognizer
 
-# Cap-Recognizer
+# Project Overview
 An image classification model from data collection, cleaning, model training, deployment and API integration. <br/>
 The model can classify 20 different types of caps <br/>
 The types are following: <br/>
