@@ -8,7 +8,9 @@
 <style>
         body {
             font-family: 'Roboto Condensed', sans-serif;
-            background-color: #f1f1f1;
+            background-image: url('your-background-image.jpg'); /* Replace 'your-background-image.jpg' with the URL of your background image */
+            background-size: cover;
+            background-position: center;
             margin: 0;
             padding: 0;
         }
@@ -17,7 +19,7 @@
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
-            background-color: #fff;
+            background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background color to the container */
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
@@ -48,12 +50,12 @@
             list-style-type: none;
             margin-left: 0;
             padding-left: 20px;
+            color: #007bff; /* Set the color for the list items */
         }
 
         .aircraft-list li {
             position: relative;
             padding-left: 30px;
-            color: #007bff;
             margin-bottom: 10px;
         }
 
@@ -65,7 +67,6 @@
             left: 0;
             top: 50%;
             transform: translateY(-50%);
-            color: #007bff;
         }
     </style>
 </head>
@@ -74,8 +75,7 @@
         <h1>Advanced System for Fighter Aircraft Recognition</h1>
         <p>A predictive model classifying 26 different types of Fighter Aircraft</p>
         <h2>The types of Aircrafts are as follows:</h2>
-
-   <ul class="aircraft-list">
+         <ul class="aircraft-list">
             <li>General Dynamics F-16 Fighting Falcon aircraft</li>
             <li>Mikoyan MiG-29</li>
             <li>Dassault Rafale</li>
