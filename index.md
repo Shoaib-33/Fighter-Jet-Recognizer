@@ -1,7 +1,4 @@
----
-title: JetVision
-layout: page
----
+<!DOCTYPE html>
 <html>
 <head>
     <title>Advanced System for Fighter Aircraft Recognition</title>
@@ -11,36 +8,62 @@ layout: page
 <style>
         body {
             font-family: 'Roboto Condensed', sans-serif;
+            background-color: #f1f1f1;
         }
 
         .container {
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
         h1 {
             font-size: 36px;
             font-weight: bold;
             margin-bottom: 20px;
+            color: #007bff;
         }
 
         p {
             font-size: 18px;
             margin-bottom: 20px;
+            color: #444;
         }
 
         h2 {
             font-size: 24px;
             font-weight: bold;
             margin-bottom: 10px;
+            color: #555;
         }
 
         .aircraft-list {
-            font-size: 18px; /* Adjust the font size as needed */
-            font-weight: bold; /* Adjust the font weight as needed */
-            list-style-type: square;
-            margin-left: 30px;
+            font-size: 18px;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .aircraft-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid #ddd;
+            color: #007bff;
+            display: flex;
+            align-items: center;
+        }
+
+        .aircraft-list li:last-child {
+            border-bottom: none;
+        }
+
+        .aircraft-list li:before {
+            content: '\2022';
+            margin-right: 10px;
+            font-size: 24px;
+            color: #007bff;
         }
     </style>
 </head>
@@ -50,8 +73,8 @@ layout: page
         <p>A predictive model classifying 26 different types of Fighter Aircraft</p>
         <h2>The types of Aircrafts are as follows:</h2>
 
-        <ul class="aircraft-list">
-            <li>General Dynamics F-16 Fighting Falcon aircraft</li>
+<ul class="aircraft-list">
+           <li>General Dynamics F-16 Fighting Falcon aircraft</li>
             <li>Mikoyan MiG-29</li>
             <li>Dassault Rafale</li>
             <li>Lockheed Martin F-22 Raptor</li>
