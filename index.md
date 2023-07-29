@@ -5,7 +5,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 
-    <style>
+<style>
         body {
             /* Set a minimum height to make the page scrollable */
             min-height: 100vh; /* vh stands for viewport height, ensures it takes at least the full height of the viewport */
@@ -26,6 +26,7 @@
             text-align: center;
         }
     </style>
+
 </head>
 <body>
     <div class="container">
@@ -36,7 +37,7 @@
     </div>
 
     <!-- Footer section with social network links -->
-    <footer>
+<footer>
         <ul class="social-links">
             <li><a href="mailto:shoaibshahriar01@gmail.com">Email</a></li>
             <li><a href="https://www.facebook.com/shoaib.sharar">Facebook</a></li>
