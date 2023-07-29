@@ -23,8 +23,3 @@ navbar-links:
     - History: "HTML/histoty.html"
   Recognizer: "HTML/jet_recognizer.html"
 
-social-network-links:
-  email: "shoaibshahriar01@gmail.com"
-  rss: true 
-  facebook: "https://www.facebook.com/shoaib.sharar"
-  github: Shoaib-33
