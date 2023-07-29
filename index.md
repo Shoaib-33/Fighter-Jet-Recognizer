@@ -1,11 +1,14 @@
-<!DOCTYPE html>
+---
+title: JetVision
+layout: page
+---
 <html>
 <head>
     <title>Advanced System for Fighter Aircraft Recognition</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-
-    <style>
+   
+  <style>
         /* Apply the display: none; property to hide the specified elements */
         .invisible-content {
             display: none;
@@ -16,10 +19,9 @@
     <div class="container">
         <h1>Advanced System for Fighter Aircraft Recognition</h1>
         <p>A predictive model classifying 26 different types of Fighter Aircraft</p>
-        <p class="invisible-content">A predictive model classifying 26 different types of Fighter Aircraft</p>
-        <h2 class="invisible-content">The types of Aircrafts are as follows:</h2>
+        <h2>The types of Aircrafts are as follows:</h2>
     </div>
-     <ul class="aircraft-list">
+    <ul class="aircraft-list invisible-content">
         <li>General Dynamics F-16 Fighting Falcon aircraft</li>
         <li>Mikoyan MiG-29</li>
         <li>Dassault Rafale</li>
