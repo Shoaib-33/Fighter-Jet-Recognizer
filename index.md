@@ -14,5 +14,20 @@ layout: page
         <h1>Advanced System for Fighter Aircraft Recognition</h1>
         <p>A predictive model classifying 26 different types of Fighter Aircraft</p>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
 </body>
 </html>
