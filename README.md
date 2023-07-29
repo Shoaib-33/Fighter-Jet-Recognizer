@@ -1,6 +1,6 @@
 # Fighter-Jet-Image-Recognizer
 
-# Cap-Recognizer
+# Project Overview
 An image classification model from data collection, cleaning, model training, deployment and API integration. <br/>
 The model can classify 20 different types of caps <br/>
 The types are following: <br/>
@@ -43,7 +43,7 @@ Details can be found in `notebooks/data_prep.ipynb`
 
 # Model Deployment
 I deployed to model to HuggingFace Spaces Gradio App. The implementation can be found in `deployment` folder or [here](https://huggingface.co/spaces/Shoaib-33/Fighter-jet-Image-Recogniser). <br/>
-<img src = "hugging.png" width="700" height="350">
+<img src = "picture/hugging.png" width="700" height="350">
 
 # API integration with GitHub Pages
 The deployed model API is integrated [here](https://shoaib-33.github.io/Fighter-Jet-Image-Recognizer/) in GitHub Pages Website. Implementation and other details can be found in `docs` folder.
