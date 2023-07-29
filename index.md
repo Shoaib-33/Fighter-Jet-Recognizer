@@ -7,13 +7,13 @@
 <body>
     <div class="container">
         <h1>Advanced System for Fighter Aircraft Recognition</h1>
-        <p>A predictive model classifying 26 different types of Fighter Aircraft</p>
 
         <!-- Add padding to create space -->
-        <p style="padding-bottom: 20px;">A predictive model classifying 26 different types of Fighter Aircraft</p>
-
-        <!-- Your other content goes here, such as the bar you mentioned -->
+        <p style="padding-bottom: 100px;">A predictive model classifying 26 different types of Fighter Aircraft</p>
 
     </div>
+
+    <!-- Your bar or other content goes here, and it will be pushed further down due to the padding on the paragraph above -->
+
 </body>
 </html>
