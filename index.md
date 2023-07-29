@@ -9,6 +9,8 @@
         body {
             font-family: 'Roboto Condensed', sans-serif;
             background-color: #f1f1f1;
+            margin: 0;
+            padding: 0;
         }
 
         .container {
@@ -42,27 +44,27 @@
 
         .aircraft-list {
             font-size: 18px;
+            font-weight: bold;
             list-style-type: none;
-            margin: 0;
-            padding: 0;
+            margin-left: 0;
+            padding-left: 20px;
         }
 
         .aircraft-list li {
-            padding: 8px 0;
-            border-bottom: 1px solid #ddd;
+            position: relative;
+            padding-left: 30px;
             color: #007bff;
-            display: flex;
-            align-items: center;
-        }
-
-        .aircraft-list li:last-child {
-            border-bottom: none;
+            margin-bottom: 10px;
         }
 
         .aircraft-list li:before {
-            content: '\2022';
-            margin-right: 10px;
-            font-size: 24px;
+            content: "\f0da";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
             color: #007bff;
         }
     </style>
@@ -73,8 +75,8 @@
         <p>A predictive model classifying 26 different types of Fighter Aircraft</p>
         <h2>The types of Aircrafts are as follows:</h2>
 
-<ul class="aircraft-list">
-           <li>General Dynamics F-16 Fighting Falcon aircraft</li>
+   <ul class="aircraft-list">
+            <li>General Dynamics F-16 Fighting Falcon aircraft</li>
             <li>Mikoyan MiG-29</li>
             <li>Dassault Rafale</li>
             <li>Lockheed Martin F-22 Raptor</li>
