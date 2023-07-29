@@ -1,3 +1,8 @@
+---
+title: JetVision
+layout: page
+---
+
 <html>
 <head>
     <title>Advanced System for Fighter Aircraft Recognition</title>
