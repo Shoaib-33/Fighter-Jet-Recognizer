@@ -75,7 +75,8 @@
         <h1>Advanced System for Fighter Aircraft Recognition</h1>
         <p>A predictive model classifying 26 different types of Fighter Aircraft</p>
         <h2>The types of Aircrafts are as follows:</h2>
-         <ul class="aircraft-list">
+
+ <ul class="aircraft-list">
             <li>General Dynamics F-16 Fighting Falcon aircraft</li>
             <li>Mikoyan MiG-29</li>
             <li>Dassault Rafale</li>
