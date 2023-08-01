@@ -1,8 +1,25 @@
 # Fighter-Jet-Image-Recognizer
 
-# Project Overview
+
+<img src = "picture/mig-41.jpg" width="700" height="350">
+
+
+# Description
+The project is all about Military aviation more specifically fighter jet image recoginizer which can identify Military aircraft from the image of the aircraft provided as input.
+
+
+
+
+# Technical Specification:
+1. FastAi for data preprocessing,training etc.
+2. Gradio.
+3. Hugging face space for deployment.
+4. GitHub page for API
+
+
+# Fighter-Jet-Image-Recognizer
 An image classification model from data collection, cleaning, model training, deployment and API integration. <br/>
-The model can classify 20 different types of caps <br/>
+The model can classify 26 different types of Fighter Aircrafts <br/>
 The types are following: <br/>
 1. General Dynamics F-16 Fighting Falcon aircraft
 2. Mikoyan MiG-29
@@ -38,12 +55,22 @@ The types are following: <br/>
 Details can be found in `notebooks/data_prep.ipynb`
 
 # Training and Data Cleaning
-**Training:** Fine-tuned a resnet34 model for 25 epochs (3 times) and got upto ~84% accuracy. <br/>
+**Training:** Fine-tuned a resnet34 model for 25 epochs (8 times) and got upto ~84% accuracy. <br/>
 **Data Cleaning:** This part took the highest time. Since I collected data from browser, there were many noises. Also, there were images that contained. I cleaned and updated data using fastai ImageClassifierCleaner. I cleaned the data each time after training or finetuning, except for the last time which was the final iteration of the model. <br/>
 
 # Model Deployment
 I deployed to model to HuggingFace Spaces Gradio App. The implementation can be found in `deployment` folder or [here](https://huggingface.co/spaces/Shoaib-33/Fighter-jet-Image-Recogniser). <br/>
-<img src = "picture/hugging.png" width="700" height="350">
+<img src = "hugging.png" width="700" height="350">
 
 # API integration with GitHub Pages
-The deployed model API is integrated [here](https://shoaib-33.github.io/Fighter-Jet-Image-Recognizer/) in GitHub Pages Website. Implementation and other details can be found in `docs` folder.
+The deployed model API is integrated [here](https://shoaib-33.github.io/Fighter-Jet-Image-Recogniser/) in GitHub Pages Website. Implementation and other details can be found in `docs` folder.
+  <table>
+  <tr>
+    <td>
+      <img src="picture/image-1.png" alt="Image 1">
+    </td>
+    <td>
+      <img src="picture/image-2.png" alt="Image 2">
+    </td>
+  </tr>
+</table>
